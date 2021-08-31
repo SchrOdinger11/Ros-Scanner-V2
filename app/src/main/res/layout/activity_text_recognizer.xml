@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextRecognizer">
+
+    //capture and display image
+
+    //detect and display the text
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="599dp"
+        android:layout_height="1949dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="412dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!---->
+
+    <!-- -->
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/borderview"
+        android:maxLines="20"
+        android:paddingLeft="15sp"
+        android:scrollbars="vertical"
+        android:text=""
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/Capture_Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Capture_Image"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_above="@id/detect_text_from_image"
+
+        android:background="@drawable/bigbutton"
+        android:text="Capture Image"
+        android:textAllCaps="false"
+        android:textColor="@color/Gold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/detect_text_from_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/detect_text_from_image"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_above="@id/detect_text_from_image"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bigbutton"
+        android:text="Detect Image"
+        android:textAllCaps="false"
+        android:textColor="@color/Gold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+   <!-- -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

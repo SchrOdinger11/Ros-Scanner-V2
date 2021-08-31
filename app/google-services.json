@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "429925508672",
+    "firebase_url": "https://ocr-readerapp-default-rtdb.firebaseio.com",
+    "project_id": "ocr-readerapp",
+    "storage_bucket": "ocr-readerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429925508672:android:f59fba8e98c1d0eea2a1a5",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429925508672-jm5ac7kvo094kqji466od8lgtn31ok1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxElh-RnBh_zN7vBrypM9tK2MPKhBW58o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429925508672-jm5ac7kvo094kqji466od8lgtn31ok1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429925508672:android:993bb35854a86735a2a1a5",
+        "android_client_info": {
+          "package_name": "com.example.opticalcharacterrecognizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429925508672-jm5ac7kvo094kqji466od8lgtn31ok1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxElh-RnBh_zN7vBrypM9tK2MPKhBW58o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429925508672-jm5ac7kvo094kqji466od8lgtn31ok1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
