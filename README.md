@@ -16,4 +16,7 @@ utmost accuracy in scanning the text with OCR but then also there is the need to
 some letters are often misread but these cases are very rare.
 
 Here is the flow of the app.
+
+
+
 ![Screenshot%20(22)](https://user-images.githubusercontent.com/65353886/172150067-d3354dc9-95de-4f62-8f4a-cf97f45ac8ca.png)
