@@ -22,4 +22,11 @@ Here is the flow of the app.
 
 
 
+<table>
+  <tr>
+    <td> <img src="https://github.com/Aniket-gawade/Umeed_Disaster_Management/blob/4ca712124c847e18a56115d57883587a1f916e44/Picture1.png" width="200" height="400" /></td>
+    <td> <img src="https://github.com/Aniket-gawade/Umeed_Disaster_Management/blob/4ca712124c847e18a56115d57883587a1f916e44/Picture2.png" width="200" height="400" /></td>
+  </tr>
+  </table>
+
 Technology used : Java,XML, Figma, Firebase, Google and Firebase APIs
